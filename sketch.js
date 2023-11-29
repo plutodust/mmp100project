@@ -71,7 +71,7 @@ class character {
   default() {
     fill(0);
     textSize(16)
-    text("i feel great!", this.x + 63, this.y - 15);
+    text("i feel great! thank you", this.x + 63, this.y - 15);
   }
   hungry() {
     fill(0);
@@ -81,6 +81,6 @@ class character {
   sick() {
     fill(0);
     textSize(16)
-    text("oh i'm sick", this.x + 63, this.y - 15);
+    text("oh... i don't feel well", this.x + 63, this.y - 15);
   }
 }
