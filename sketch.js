@@ -56,7 +56,7 @@ class character {
     this.x = 200;
     this.y = 200;
     this.w = 100;
-    this.h = 20;
+    this.h = 50;
     this.d = 1;
     this.r = 200;
   }
@@ -76,7 +76,7 @@ class character {
   hungry() {
     fill(0);
     textSize(16)
-    text("feed me!", this.x + 63, this.y - 15);
+    text("click here to feed me!", this.x + 63, this.y - 15);
   }
   sick() {
     fill(0);
