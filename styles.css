@@ -1,0 +1,30 @@
+body{background-color: #7A184F}
+
+#float {
+text-shadow: 0 0 10px #CC6C89;
+font-family: cursive;
+font-style: italic;
+ font-size:60px;
+ color: #84AF92;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+h1{font-family: cursive; font-size: 60px; color: #84AF92; text-shadow: 0 0 10px #CC6C89; font-weight: lighter; margin-bottom: 1px}
+
+#p1{font-size: 25px; color: #70927E; margin-top: 2px}
+p{font-family: monospace;font-size: 17px; color: #84AF92}
+
+img{border-width: 3px; border-style: solid; border-color: #EE84AD;}
+
+a{font-family: monospace; color: #CC6C89; font-size: 17px; text-decoration: none;}
+a:hover{color: #C25778}
+li{font-family: monospace; color: #CC6C89; font-size: 17px; text-decoration: underline; padding: 5px;}
